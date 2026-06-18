@@ -1,0 +1,9 @@
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.tmp
+*.lck
+fp-info-cache/
+__pycache__/
