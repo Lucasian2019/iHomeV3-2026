@@ -1,0 +1,159 @@
+(footprint "ferrite_bead_smd"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.24 -1.07 0)
+		(layer "F.SilkS")
+		(uuid "06ed3a25-261f-4b3f-91a2-52faf38e9c96")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 1.76 1.07 0)
+		(layer "F.Fab")
+		(uuid "2ba95a17-c62f-4a67-947b-7de77cca2072")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8da5741-08f0-4b3f-918e-4df953b21a8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80a3e715-bf2c-4055-b43f-d1db3d63c08e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.485 -0.735)
+		(end 1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2044bbf9-958e-47fd-8fa0-15a72e4803c9")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end -1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a248f205-4a83-4fc2-bdf7-3948b4bac441")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end 1.485 0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "394f920f-853d-4010-8ed1-1ac19fe28cd8")
+	)
+	(fp_line
+		(start 1.485 0.735)
+		(end 1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d5b9f60-9af4-4fef-a713-ac7db2332dc2")
+	)
+	(fp_line
+		(start -0.88 0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80a09f2c-4049-4bd3-b8c2-975b9e2b1dc8")
+	)
+	(fp_line
+		(start 0.88 -0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23116abc-9877-488e-a9ef-571be02ef2b9")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end -0.88 0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b8f3f91-5daf-4e9f-a8e4-8936a9992af9")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end 0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86c477f3-be7f-43bd-80e4-34c9c275d327")
+	)
+	(pad "1" smd rect
+		(at -0.735 0)
+		(size 1 0.97)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bc0aade0-1520-47e1-bfb1-76cf59c5d3f6")
+	)
+	(pad "2" smd rect
+		(at 0.735 0)
+		(size 1 0.97)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "91046d05-4c8f-4880-901d-15600bf94345")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Lucasian/OneDrive/kicad backup/2025/3D models/ferrite_bead_smd_BLM18PG121SN1D.step"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

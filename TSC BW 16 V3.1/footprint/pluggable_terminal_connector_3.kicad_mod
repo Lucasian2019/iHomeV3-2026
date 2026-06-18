@@ -1,0 +1,195 @@
+(footprint "pluggable_terminal_connector_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.635 0)
+		(layer "F.SilkS")
+		(uuid "2f76597e-389e-4f70-83c2-91ef230575db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691312510003"
+		(at 4.12 11.365 0)
+		(layer "F.Fab")
+		(uuid "ea5be4ff-0f50-4857-b634-7f0edc6f349c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af5491d2-b9be-4a01-9b27-213be20992fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5efe4c8b-60ac-466d-bc79-db9e4a6bf3c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.72 -2.1)
+		(end -7.72 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59b4dfc9-f7bc-4e2e-8653-23898e9d843e")
+	)
+	(fp_line
+		(start -7.72 -2.1)
+		(end 7.72 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "163f7fdd-2459-439a-ab5d-69925a6f4430")
+	)
+	(fp_line
+		(start -7.72 10.1)
+		(end 7.72 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2d73288-0328-4275-ae0b-64faf2f1d90d")
+	)
+	(fp_line
+		(start 7.72 -2.1)
+		(end 7.72 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57e1661e-9d71-4f66-bf6d-37441f8a63ee")
+	)
+	(fp_circle
+		(center -6.84 -1.3)
+		(end -6.74 -1.3)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d0ccada6-0904-44bc-8316-729bcb9ef8ef")
+	)
+	(fp_poly
+		(pts
+			(xy -7.92 -2.3) (xy 7.92 -2.3) (xy 7.92 10.3) (xy -7.92 10.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "515df35c-4331-4c59-935b-fdce4dd0f5a0")
+	)
+	(fp_line
+		(start -7.62 -2)
+		(end -7.62 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f23c6cbe-2f1a-414d-a168-327800116a66")
+	)
+	(fp_line
+		(start -7.62 10)
+		(end 7.62 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb062230-9503-4d91-b813-0d9ca508c996")
+	)
+	(fp_line
+		(start 7.62 -2)
+		(end -7.62 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98b00b35-c933-4148-9bc6-f5c46fc376be")
+	)
+	(fp_line
+		(start 7.62 10)
+		(end 7.62 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c577fcff-9be8-46fe-8e2b-de4dadb5e013")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "df316294-fa0a-4337-b906-897ddc8581a8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6e7d8247-c858-4bb5-83d4-c4c5f4654108")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "162e851f-3a7e-41be-a268-24f445418729")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Lucasian/OneDrive/kicad backup/2025/3D models/pluggable_terminal_connector_3.step"
+		(offset
+			(xyz 0 -4 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 180 -0)
+		)
+	)
+)

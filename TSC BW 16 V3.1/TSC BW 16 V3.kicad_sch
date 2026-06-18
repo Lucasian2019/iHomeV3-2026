@@ -1,0 +1,704 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "65a0f6c1-6a57-4cd2-a77c-79691e6171da")
+	(paper "A4")
+	(title_block
+		(title "TSC BW 16 V3.1")
+		(date "2025-12-21")
+		(rev "V3.1")
+		(company "Tivana Holdings")
+		(comment 3 "Main")
+		(comment 4 "Designed by: Lucas Tivana")
+	)
+	(lib_symbols)
+	(text "ADD GLOBAL NET LABELS"
+		(exclude_from_sim no)
+		(at 60.452 148.844 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 255 0 35 1)
+			)
+			(justify left)
+		)
+		(uuid "1a96ba66-8064-4a70-9901-480febaf7683")
+	)
+	(text "1. net labels - used within same sheet\n2. Global label - connects everywhere within same project\n3. Hierarchical - connect between parent sheet and its child sheet"
+		(exclude_from_sim no)
+		(at 58.42 158.242 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6e291379-5fe6-4a50-9bd5-cd3f4898841f")
+	)
+	(text "Red - Working on\nBlue - Not done\nWhite - Circuit Pending\nGreen - Done"
+		(exclude_from_sim no)
+		(at 56.642 183.896 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "b53edc58-e4ee-4151-9186-060a1490c7cb")
+	)
+	(sheet
+		(at 213.36 85.09)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 21 255 0 1)
+		)
+		(uuid "1f1026b5-48d2-4631-83dd-b99d53672b0a")
+		(property "Sheetname" "ETHERNET"
+			(at 213.36 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 213.36 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 119.38)
+		(size 54.61 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 127 90 255 1)
+		)
+		(uuid "215f9304-bba5-45cb-b5e0-92fc6886444a")
+		(property "Sheetname" "ADC PINS"
+			(at 19.05 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_pins.kicad_sch"
+			(at 19.05 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 115.57)
+		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 43 255 0 1)
+		)
+		(uuid "40ee65e9-2fd8-4eed-8511-b217a3b2d635")
+		(property "Sheetname" "RS485 v2"
+			(at 247.65 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485 v2.kicad_sch"
+			(at 247.65 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 55.88)
+		(size 54.61 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 7 255 1 1)
+		)
+		(uuid "46fc40ab-03f2-48e3-952c-a0230bfbcd31")
+		(property "Sheetname" "16 DIGITAL INPUTS"
+			(at 19.05 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "16_digital_inputs.kicad_sch"
+			(at 19.05 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 88.9)
+		(size 53.34 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 4 255 0 1)
+		)
+		(uuid "4b14fb8a-3fb3-4e56-ad25-b944ad295dd9")
+		(property "Sheetname" "16 DIGITAL OUTPUTS"
+			(at 20.32 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "16_digital_outputs.kicad_sch"
+			(at 20.32 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 147.32)
+		(size 55.88 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 18 255 6 1)
+		)
+		(uuid "69b8f423-23b5-4474-97f0-888694778d40")
+		(property "Sheetname" "Buzzer"
+			(at 213.36 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 213.36 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 115.57)
+		(size 22.86 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 12 255 13 1)
+		)
+		(uuid "9fb538e7-7124-4cc4-a053-393a3181c19e")
+		(property "Sheetname" "RS485 v1"
+			(at 213.36 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 213.36 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 21.59)
+		(size 54.61 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 5 1)
+		)
+		(uuid "c11a62e4-71cb-4580-bf6a-0087dc250c43")
+		(property "Sheetname" "Power Supply"
+			(at 20.32 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 20.32 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 114.3)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c20d2d40-6a62-4416-bf0d-0a366e5f221d")
+		(property "Sheetname" "External Connections"
+			(at 111.76 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "external_connections.kicad_sch"
+			(at 111.76 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 52.07)
+		(size 58.42 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 5 255 14 1)
+		)
+		(uuid "c454aa56-c48d-4b02-ae8d-5508b49e4f18")
+		(property "Sheetname" "SD CARD"
+			(at 212.09 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 212.09 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 71.12)
+		(size 59.69 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 1 255 13 1)
+		)
+		(uuid "c74c7530-d8b4-4eb2-9788-6af0f5549dcd")
+		(property "Sheetname" "USB_C to UART"
+			(at 111.76 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c_to_uart.kicad_sch"
+			(at 111.76 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 86.36)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 26 255 9 1)
+		)
+		(uuid "f0494f40-a320-4e8c-a704-3969cfee28f3")
+		(property "Sheetname" "Ethernet W5500"
+			(at 247.65 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet_W5500.kicad_sch"
+			(at 247.65 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 20.32)
+		(size 58.42 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 15 255 34 1)
+		)
+		(uuid "f360778a-4100-4e67-bb28-4591c77fa6f9")
+		(property "Sheetname" "RTC"
+			(at 212.09 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rtc.kicad_sch"
+			(at 212.09 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 25.4)
+		(size 58.42 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 112 62 255 1)
+		)
+		(uuid "f4ca0c87-ded5-4c4c-baf1-e02609205180")
+		(property "Sheetname" "ESP32 S3 MCU"
+			(at 111.76 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_S3_mcu.kicad_sch"
+			(at 111.76 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
