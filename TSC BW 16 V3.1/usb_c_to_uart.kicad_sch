@@ -2691,8 +2691,8 @@
 		)
 	)
 	(rectangle
-		(start 218.44 105.41)
-		(end 254 142.24)
+		(start 209.55 105.41)
+		(end 266.7 162.56)
 		(stroke
 			(width 1)
 			(type solid)
@@ -2714,6 +2714,18 @@
 			)
 		)
 		(uuid "25d3a589-5336-4007-ae8e-06d9ef512060")
+	)
+	(text "USB C - UART\nEN- PIN3 : NO GPIO\nIO0 - PIN27 : GPIO0\nRXD - PIN36/RXD0 : GPIO44,U0RXD\nTXD - PIN37/ TXD0 : GPIO43,U0TXD"
+		(exclude_from_sim no)
+		(at 219.71 149.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 191 7 1)
+			)
+			(justify left)
+		)
+		(uuid "35757959-fc11-48f4-a031-c0324cb98b40")
 	)
 	(text "AUTO PROGRAM"
 		(exclude_from_sim no)

@@ -1570,8 +1570,8 @@
 		)
 	)
 	(rectangle
-		(start 222.25 96.52)
-		(end 255.27 119.38)
+		(start 228.6 96.52)
+		(end 261.62 135.89)
 		(stroke
 			(width 1)
 			(type solid)
@@ -1595,7 +1595,7 @@
 	)
 	(text "GLOBAL PINS / LABELS"
 		(exclude_from_sim no)
-		(at 239.014 100.33 0)
+		(at 245.364 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1612,6 +1612,18 @@
 			)
 		)
 		(uuid "c1f5e2a1-902a-4583-a96f-7c6fea8a3430")
+	)
+	(text "RS485\nTXD - PIN9 : GPIO16\nRXD - PIN10 : GPIO17\nTXD - PIN23 : GPIO21"
+		(exclude_from_sim no)
+		(at 233.172 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 191 7 1)
+			)
+			(justify left)
+		)
+		(uuid "d3fd80dd-4503-4572-8438-14dd1b00c266")
 	)
 	(junction
 		(at 213.36 135.89)
@@ -2023,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 114.3) (xy 240.03 114.3)
+			(xy 233.68 114.3) (xy 246.38 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 104.14) (xy 240.03 104.14)
+			(xy 233.68 104.14) (xy 246.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 109.22) (xy 240.03 109.22)
+			(xy 233.68 109.22) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2764,7 @@
 		(uuid "ff012286-f087-46e5-8a84-bf3b4f91c7c1")
 	)
 	(label "485_EN"
-		(at 229.87 109.22 0)
+		(at 236.22 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2762,7 +2774,7 @@
 		(uuid "00556377-8d39-40d4-9bb7-6a20c18fa0fd")
 	)
 	(label "485RX"
-		(at 229.87 114.3 0)
+		(at 236.22 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2852,7 +2864,7 @@
 		(uuid "cb7b68e0-60b0-4c74-85bc-9f8ceeb06b4c")
 	)
 	(label "485TX"
-		(at 229.87 104.14 0)
+		(at 236.22 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2893,7 +2905,7 @@
 	)
 	(global_label "485_EN"
 		(shape input)
-		(at 240.03 109.22 0)
+		(at 246.38 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2903,7 +2915,7 @@
 		)
 		(uuid "13809f32-cff2-43e4-9537-feb4eee70139")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.0908 109.22 0)
+			(at 256.4408 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2953,7 @@
 	)
 	(global_label "485TX"
 		(shape input)
-		(at 240.03 104.14 0)
+		(at 246.38 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2951,7 +2963,7 @@
 		)
 		(uuid "32f83172-7f65-4fc9-b6aa-a75416584665")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.8208 104.14 0)
+			(at 255.1708 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +3001,7 @@
 	)
 	(global_label "485RX"
 		(shape input)
-		(at 240.03 114.3 0)
+		(at 246.38 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2999,7 +3011,7 @@
 		)
 		(uuid "920de654-bace-4750-8d3a-40e63bd4dc12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.1232 114.3 0)
+			(at 255.4732 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

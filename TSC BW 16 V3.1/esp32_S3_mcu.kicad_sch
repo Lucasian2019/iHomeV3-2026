@@ -1914,12 +1914,13 @@
 	)
 	(text "SDA - PIN17 : GPIO9\nSCL - PIN18 : GPIO10"
 		(exclude_from_sim no)
-		(at 34.544 187.706 0)
+		(at 23.622 189.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 33 191 7 1)
 			)
+			(justify left)
 		)
 		(uuid "6820d903-c839-4e03-bb6b-05434203e826")
 	)

@@ -1038,6 +1038,17 @@
 		)
 		(uuid "c1812743-b309-41e2-9a21-517c8b379c8d")
 	)
+	(text "BUZZER - PIN25 : GPIO48 "
+		(exclude_from_sim no)
+		(at 201.676 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 191 7 1)
+			)
+		)
+		(uuid "ecccf74c-9164-47d0-b51b-10a897a0e210")
+	)
 	(junction
 		(at 151.13 97.79)
 		(diameter 0)

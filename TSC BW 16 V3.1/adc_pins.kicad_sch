@@ -609,7 +609,7 @@
 	)
 	(rectangle
 		(start 127 160.02)
-		(end 161.29 186.69)
+		(end 167.64 195.58)
 		(stroke
 			(width 1)
 			(type solid)
@@ -642,6 +642,18 @@
 			)
 		)
 		(uuid "31ec8f1b-021a-4100-918c-5a79a3ccdc9f")
+	)
+	(text "Analog Inputs\nANALOG_A1 - PIN4 : GPIO4\nANALOG_A2 - PIN6 : GPIO6\nANALOG_A3 - PIN7 : GPIO7\nANALOG_A4 - PIN5 : GPIO5"
+		(exclude_from_sim no)
+		(at 131.064 188.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 191 7 1)
+			)
+			(justify left)
+		)
+		(uuid "7d1ccc96-b8ed-4965-9b41-7c0b4007b9be")
 	)
 	(text "ANALOG CIRCUIT\nA1 - 4,\nA2 - 6,\nA3 - 7,\nA4 - 5"
 		(exclude_from_sim no)

@@ -822,7 +822,7 @@
 	)
 	(rectangle
 		(start 198.12 85.09)
-		(end 233.68 121.92)
+		(end 233.68 135.89)
 		(stroke
 			(width 1)
 			(type solid)
@@ -853,6 +853,18 @@
 			)
 		)
 		(uuid "90cebad6-0d93-4a0b-b7a6-ab47873fbe69")
+	)
+	(text "SD Card (SPI)\nMOSI - PIN20 : GPIO12\nSCK - PIN21 : GPIO13\nMISO - PIN22 : GPIO14\nCS - PIN19 : GPIO11\nSD-CD - PIN23 : GPIO21"
+		(exclude_from_sim no)
+		(at 204.978 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 191 7 1)
+			)
+			(justify left)
+		)
+		(uuid "dd17e1f7-8e3f-4923-b09e-abd8f1555209")
 	)
 	(junction
 		(at 97.79 90.17)

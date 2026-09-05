@@ -1468,6 +1468,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 231.14 119.38)
+		(end 264.16 158.75)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 225 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "16d7bb2b-b83a-42b7-8e0f-a80238c03a37")
+	)
 	(text "#define RS485_EN 21\n\nvoid rs485Transmit()\n{\n    digitalWrite(RS485_EN, HIGH);\n}\n\nvoid rs485Receive()\n{\n    digitalWrite(RS485_EN, LOW);\n}\n\nvoid sendRS485(String msg)\n{\n    rs485Transmit();\n    Serial2.print(msg);\n    Serial2.flush();\n    rs485Receive();\n}"
 		(exclude_from_sim no)
 		(at 263.398 38.862 0)
@@ -1477,6 +1490,28 @@
 			)
 		)
 		(uuid "3c86d8ab-5fc8-43f6-a303-e6cb96f69df2")
+	)
+	(text "GLOBAL PINS / LABELS"
+		(exclude_from_sim no)
+		(at 247.904 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90311ca9-5719-42e2-8fcd-42188cfd1468")
+	)
+	(text "RS485\nTXD - PIN9 : GPIO16\nRXD - PIN10 : GPIO17\nTXD - PIN23 : GPIO21"
+		(exclude_from_sim no)
+		(at 235.712 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 33 191 7 1)
+			)
+			(justify left)
+		)
+		(uuid "ce819f2f-06d4-4f8a-9061-5c6f0d656053")
 	)
 	(text "RS 485 V1"
 		(exclude_from_sim no)
@@ -1567,6 +1602,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 132.08) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201f6200-3a2f-458c-991f-3a236966efca")
+	)
+	(wire
+		(pts
 			(xy 173.99 115.57) (xy 194.31 115.57)
 		)
 		(stroke
@@ -1574,6 +1619,16 @@
 			(type default)
 		)
 		(uuid "22833270-8fb9-4881-a7cd-c46a7764c229")
+	)
+	(wire
+		(pts
+			(xy 236.22 127) (xy 248.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241834d0-f466-45ee-aa5d-2e74d491f914")
 	)
 	(wire
 		(pts
@@ -1875,6 +1930,16 @@
 		)
 		(uuid "fa573240-4094-4be1-bee6-279c8ae78ee9")
 	)
+	(wire
+		(pts
+			(xy 236.22 137.16) (xy 248.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd813c1d-6152-457f-8b9a-c8856bfeac55")
+	)
 	(label "RS485-"
 		(at 191.77 87.63 0)
 		(effects
@@ -1885,6 +1950,16 @@
 		)
 		(uuid "3e144e08-5f78-4d89-a268-d03755a022b1")
 	)
+	(label "485_EN"
+		(at 238.76 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4282c7b1-b0ca-4c56-a999-8332bc072c39")
+	)
 	(label "RS485+"
 		(at 185.42 115.57 0)
 		(effects
@@ -1894,6 +1969,50 @@
 			(justify left bottom)
 		)
 		(uuid "4f66435a-7520-477c-9c5f-078e1b410e44")
+	)
+	(label "485RX"
+		(at 238.76 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "524a47b5-dc7b-472d-9aa0-55f9d09bdc2c")
+	)
+	(label "485TX"
+		(at 238.76 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f12a000b-d0c4-47ba-b76b-1ddcdf6ef66b")
+	)
+	(global_label "485_EN"
+		(shape input)
+		(at 248.92 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1eee6094-9dc0-40f8-9292-48c9900fa57c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.9808 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "MCU_EN_RS485"
 		(shape input)
@@ -1919,6 +2038,30 @@
 			)
 		)
 	)
+	(global_label "485TX"
+		(shape input)
+		(at 248.92 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e2a264a-f648-458a-8e40-fe8434000a95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.7108 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MCU_Tx_RS485"
 		(shape input)
 		(at 116.84 105.41 180)
@@ -1940,6 +2083,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "485RX"
+		(shape input)
+		(at 248.92 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d00f212-586a-499f-8cf4-9d6b2c34384e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.0132 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
