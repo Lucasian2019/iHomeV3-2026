@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "4c5f3cbc-d6bf-4f3c-a826-ab705b8bedf7")
+	(uuid "1e5c9c91-ffde-465e-971b-9c891f311d26")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:RJ45_Hanrun_HR911105A_Horizontal"
