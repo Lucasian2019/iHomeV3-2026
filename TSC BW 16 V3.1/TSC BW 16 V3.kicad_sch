@@ -308,7 +308,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Buzzer.kicad_sch"
 			(at 213.36 160.6046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -330,10 +330,10 @@
 	(sheet
 		(at 213.36 115.57)
 		(size 22.86 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -558,6 +558,52 @@
 		)
 	)
 	(sheet
+		(at 238.76 20.32)
+		(size 20.32 24.13)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 53 90 255 1)
+		)
+		(uuid "d8286223-b948-4551-bbb1-cb44195d0ce1")
+		(property "Sheetname" "RTC2"
+			(at 238.76 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC2.kicad_sch"
+			(at 238.76 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 247.65 86.36)
 		(size 22.86 20.32)
 		(exclude_from_sim no)
@@ -605,7 +651,7 @@
 	)
 	(sheet
 		(at 212.09 20.32)
-		(size 58.42 24.13)
+		(size 21.59 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -691,6 +737,52 @@
 			(project "TSC BW 16 V3"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 87.63)
+		(size 21.59 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 38 46 255 1)
+		)
+		(uuid "f6669ae1-3267-49a1-8e24-ea638f49727b")
+		(property "Sheetname" "W500 v3"
+			(at 187.96 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "w500v3.kicad_sch"
+			(at 187.96 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSC BW 16 V3"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
+					(page "17")
 				)
 			)
 		)

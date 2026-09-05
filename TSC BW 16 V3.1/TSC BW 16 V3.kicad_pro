@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -902,7 +918,7 @@
         "uuid": "65a0f6c1-6a57-4cd2-a77c-79691e6171da"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U46,U49-51,#PWR267-304,C45-67,R183-198,J9,J18,RN9-10,Y4",
     "variants": []
   },
   "sheets": [
@@ -965,6 +981,14 @@
     [
       "f0494f40-a320-4e8c-a704-3969cfee28f3",
       "Ethernet W5500"
+    ],
+    [
+      "d8286223-b948-4551-bbb1-cb44195d0ce1",
+      "RTC2"
+    ],
+    [
+      "f6669ae1-3267-49a1-8e24-ea638f49727b",
+      "W500 v3"
     ]
   ],
   "text_variables": {},

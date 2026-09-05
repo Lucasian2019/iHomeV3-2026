@@ -608,6 +608,19 @@
 		)
 	)
 	(rectangle
+		(start 127 160.02)
+		(end 161.29 186.69)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 225 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "15a9f59c-2c5c-49d6-9bcb-9bdb54caff9c")
+	)
+	(rectangle
 		(start 54.61 54.61)
 		(end 232.41 123.19)
 		(stroke
@@ -619,6 +632,16 @@
 			(type none)
 		)
 		(uuid "e3286311-51c7-4177-b83c-9b86bad6da7f")
+	)
+	(text "ADC PINS / LABELS P14"
+		(exclude_from_sim no)
+		(at 142.24 155.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31ec8f1b-021a-4100-918c-5a79a3ccdc9f")
 	)
 	(text "ANALOG CIRCUIT\nA1 - 4,\nA2 - 6,\nA3 - 7,\nA4 - 5"
 		(exclude_from_sim no)
@@ -746,6 +769,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 163.83) (xy 147.32 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb3f1f6-8019-4819-aa05-a9f5120888a7")
+	)
+	(wire
+		(pts
 			(xy 185.42 83.82) (xy 203.2 83.82)
 		)
 		(stroke
@@ -816,6 +849,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 176.53) (xy 147.32 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16e36f9-40fa-48a8-b758-d8797c9516a7")
+	)
+	(wire
+		(pts
+			(xy 134.62 181.61) (xy 147.32 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5255db7-db86-4296-8cd8-8a09f9abd10d")
+	)
+	(wire
+		(pts
 			(xy 113.03 93.98) (xy 113.03 101.6)
 		)
 		(stroke
@@ -876,6 +929,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 170.18) (xy 147.32 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc59d44c-f34b-40bd-8410-d39fffa4fc57")
+	)
+	(wire
+		(pts
 			(xy 135.89 85.09) (xy 135.89 86.36)
 		)
 		(stroke
@@ -914,16 +977,6 @@
 		)
 		(uuid "062dc275-e8c3-46f8-b222-d624e5d642cf")
 	)
-	(label "ANALOG_A4"
-		(at 62.23 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bff9250-caa9-4896-935e-37f7ad599fd3")
-	)
 	(label "ANALOG_A1_INPUT"
 		(at 201.93 81.28 180)
 		(effects
@@ -933,16 +986,6 @@
 			(justify right bottom)
 		)
 		(uuid "0cdc47c0-642c-4403-8f97-411333e94cab")
-	)
-	(label "ANALOG_A2"
-		(at 62.23 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14e76d0c-6596-4cb9-a825-78bf1a4eb7c3")
 	)
 	(label "ANALOG_A3_INPUT"
 		(at 201.93 86.36 180)
@@ -994,6 +1037,16 @@
 		)
 		(uuid "7c3dae70-7ae0-4b87-8fa4-b4397a1bb9ec")
 	)
+	(label "ANALOG_A2"
+		(at 135.89 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86c35465-e128-47c4-a9b3-f9e14727ca8f")
+	)
 	(label "ANALOG_A4"
 		(at 161.29 85.09 0)
 		(effects
@@ -1013,6 +1066,16 @@
 			(justify left bottom)
 		)
 		(uuid "a5fdc684-8956-4a66-99e7-31604f46aa53")
+	)
+	(label "ANALOG_A1"
+		(at 135.89 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab15c2ba-0bd7-4a29-9655-4e24fb3539ab")
 	)
 	(label "ANALOG_A4_INPUT"
 		(at 201.93 88.9 180)
@@ -1035,14 +1098,24 @@
 		(uuid "b5649811-71fa-4536-8a82-50c16cec81d3")
 	)
 	(label "ANALOG_A3"
-		(at 62.23 86.36 0)
+		(at 135.89 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e2f2d2e5-d7a4-4e3d-9520-f2718594d5b7")
+		(uuid "df40e510-0899-417b-ab06-daec7302eba3")
+	)
+	(label "ANALOG_A4"
+		(at 135.89 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e21787ab-2294-4297-bd16-dba4438845ec")
 	)
 	(label "ANALOG_A3_INPUT"
 		(at 135.89 74.93 90)
@@ -1053,6 +1126,102 @@
 			(justify left bottom)
 		)
 		(uuid "e4f2d2e1-a2fa-412a-a243-2d5c7510225c")
+	)
+	(global_label "ANALOG_A2"
+		(shape input)
+		(at 147.32 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "169b9456-70fb-43ab-a631-b55ba05b2aee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7072 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ANALOG_A3"
+		(shape input)
+		(at 147.32 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23d1ac2d-e99c-4199-a99f-f9050bc16439")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7072 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ANALOG_A1"
+		(shape input)
+		(at 147.32 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c757f0a-1242-4310-b982-220c6e22bbb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7072 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ANALOG_A4"
+		(shape input)
+		(at 147.32 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0d45460-564f-4dd3-8cd0-f45bd4831c73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7072 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
