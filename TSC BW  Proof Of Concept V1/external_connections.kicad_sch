@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "15510be9-13fa-4f30-b01e-9f0badf92a5d")
+	(paper "A4")
+	(title_block
+		(title "TSC BW 16 V3.1")
+		(rev "V3.1")
+		(company "Tivana Holdings")
+		(comment 4 "Designed by: Lucas Tivana")
+	)
+	(lib_symbols)
+)
