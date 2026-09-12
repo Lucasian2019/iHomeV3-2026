@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TSC BW 16 V3.kicad_pro",
+    "filename": "TSC BW 16 V3 POC.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -913,18 +913,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "TSC BW 16 V3.kicad_sch",
-        "name": "TSC BW 16 V3",
+        "filename": "TSC BW 16 V3 POC.kicad_sch",
+        "name": "TSC BW 16 V3 POC",
         "uuid": "65a0f6c1-6a57-4cd2-a77c-79691e6171da"
       }
     ],
-    "used_designators": "U46,U49-51,#PWR9,#PWR29,#PWR267-304,C45-67,BZ1,R159-160,R183-198,J9,J18,RN9-10,Y4,JP1,Q1",
+    "used_designators": "U46,U49-51,#PWR9,#PWR29,#PWR267-304,C45-67,BZ1,R159-160,R183-198,J9,J18,RN3,RN9-10,Y4,JP1,Q1",
     "variants": []
   },
   "sheets": [
     [
       "65a0f6c1-6a57-4cd2-a77c-79691e6171da",
-      "TSC BW 16 V3"
+      "TSC BW 16 V3 POC"
     ],
     [
       "c11a62e4-71cb-4580-bf6a-0087dc250c43",
@@ -936,11 +936,11 @@
     ],
     [
       "46fc40ab-03f2-48e3-952c-a0230bfbcd31",
-      "16 DIGITAL INPUTS"
+      "8 DIGITAL INPUTS"
     ],
     [
       "4b14fb8a-3fb3-4e56-ad25-b944ad295dd9",
-      "16 DIGITAL OUTPUTS"
+      "8 DIGITAL OUTPUTS"
     ],
     [
       "f360778a-4100-4e67-bb28-4591c77fa6f9",

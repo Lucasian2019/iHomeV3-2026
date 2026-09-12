@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "8")
 				)
@@ -136,7 +136,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "14")
 				)
@@ -156,7 +156,7 @@
 			(type solid)
 		)
 		(fill
-			(color 43 255 0 1)
+			(color 255 240 4 1)
 		)
 		(uuid "40ee65e9-2fd8-4eed-8511-b217a3b2d635")
 		(property "Sheetname" "RS485 v2"
@@ -182,7 +182,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "10")
 				)
@@ -205,7 +205,7 @@
 			(color 7 255 1 1)
 		)
 		(uuid "46fc40ab-03f2-48e3-952c-a0230bfbcd31")
-		(property "Sheetname" "16 DIGITAL INPUTS"
+		(property "Sheetname" "8 DIGITAL INPUTS"
 			(at 19.05 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -216,7 +216,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "16_digital_inputs.kicad_sch"
+		(property "Sheetfile" "8_digital_inputs.kicad_sch"
 			(at 19.05 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -228,7 +228,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "4")
 				)
@@ -251,7 +251,7 @@
 			(color 4 255 0 1)
 		)
 		(uuid "4b14fb8a-3fb3-4e56-ad25-b944ad295dd9")
-		(property "Sheetname" "16 DIGITAL OUTPUTS"
+		(property "Sheetname" "8 DIGITAL OUTPUTS"
 			(at 20.32 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -262,7 +262,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "16_digital_outputs.kicad_sch"
+		(property "Sheetfile" "8_digital_outputs.kicad_sch"
 			(at 20.32 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -274,7 +274,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "5")
 				)
@@ -320,7 +320,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "13")
 				)
@@ -366,7 +366,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "9")
 				)
@@ -412,7 +412,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "2")
 				)
@@ -458,7 +458,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "12")
 				)
@@ -504,7 +504,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "7")
 				)
@@ -550,7 +550,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "11")
 				)
@@ -596,7 +596,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "16")
 				)
@@ -642,7 +642,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "15")
 				)
@@ -688,7 +688,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "6")
 				)
@@ -734,7 +734,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "3")
 				)
@@ -780,7 +780,7 @@
 			)
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da"
 					(page "17")
 				)

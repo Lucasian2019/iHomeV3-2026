@@ -1305,7 +1305,7 @@
 			(uuid "565cc269-b49d-4a91-937f-a09e1e68d12a")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "#PWR09")
 					(unit 1)
@@ -1383,7 +1383,7 @@
 			(uuid "6f411788-48d0-40e1-89a7-6f7c7903ac6a")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "#PWR029")
 					(unit 1)
@@ -1462,7 +1462,7 @@
 			(uuid "981cabc6-ae7e-4d49-bf55-4fd499b23ef0")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "R159")
 					(unit 1)
@@ -1541,7 +1541,7 @@
 			(uuid "c3b8eaf5-1e98-47cf-a0dc-d55ba42a5c80")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "R160")
 					(unit 1)
@@ -1623,7 +1623,7 @@
 			(uuid "24e2c851-829d-449f-b987-9518c19eba80")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "BZ1")
 					(unit 1)
@@ -1703,7 +1703,7 @@
 			(uuid "86d8ce4f-b167-4e40-8d58-50029e5fd70a")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "JP1")
 					(unit 1)
@@ -1813,7 +1813,7 @@
 			(uuid "b5441b91-b384-485b-b488-dad64eadc6ec")
 		)
 		(instances
-			(project "TSC BW 16 V3"
+			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "Q1")
 					(unit 1)
