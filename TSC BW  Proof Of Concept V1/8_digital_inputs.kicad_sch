@@ -11,6 +11,782 @@
 		(comment 4 "Designed by: Lucas Tivana")
 	)
 	(lib_symbols
+		(symbol "CAY16-103J4LF:resister_array_4_10k_CAY16-103J4LF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at -6.8624 13.4635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "resister_array_4_10k_CAY16-103J4LF"
+				(at -6.614 -15.7546 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TVS_LESD5D50:resister_array_4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "Bourns"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "Resistor, Chip Array,10 Kilohms,62 mW,+ 5%,50 V (Max.) | Bourns CAY16-103J4LF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "NON STANDARD-8 Bourns"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CAY16-103J4LF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Bourns"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "resister_array_4_10k_CAY16-103J4LF_0_0"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -4.445 9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.445 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -4.445 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy -4.445 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 9.525) (xy -3.175 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 4.445) (xy -3.175 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -0.635) (xy -3.175 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -5.715) (xy -3.175 -9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 5.715) (xy -1.905 9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -4.445) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -9.525) (xy -1.905 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 9.525) (xy -0.635 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.445) (xy -0.635 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -0.635 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.715) (xy -0.635 -9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 5.715) (xy 0.635 9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 0.635 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -9.525) (xy 0.635 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 9.525) (xy 1.905 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 4.445) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -5.715) (xy 1.905 -9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 5.715) (xy 3.175 9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0.635) (xy 3.175 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -4.445) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -9.525) (xy 3.175 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 9.525) (xy 4.445 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 4.445) (xy 4.445 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -0.635) (xy 4.445 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -5.715) (xy 4.445 -9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 5.715) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0.635) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.445) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -9.525) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1889,6 +2665,12 @@
 		(uuid "389d52cf-53ae-4404-a4ed-88a2bfa1e4c7")
 	)
 	(junction
+		(at 270.51 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b8769e7-8950-41a3-b9d8-8383f1394c9c")
+	)
+	(junction
 		(at 60.96 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1937,6 +2719,12 @@
 		(uuid "7bccd6fd-3469-416c-bb3d-84a6feb176fc")
 	)
 	(junction
+		(at 280.67 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fb4a408-33f7-429b-9281-49a5a6a89e03")
+	)
+	(junction
 		(at 100.33 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1947,6 +2735,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9533b4b6-267d-4efa-85d0-e9f63d59e8af")
+	)
+	(junction
+		(at 204.47 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1d3fdba-aece-42c9-9400-f6d3b5175231")
+	)
+	(junction
+		(at 199.39 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7879da6-c5a6-46f8-9cff-17a06361f76b")
 	)
 	(junction
 		(at 100.33 156.21)
@@ -1961,6 +2761,12 @@
 		(uuid "bf854e37-1cfb-4e41-a2f1-906960c4bba2")
 	)
 	(junction
+		(at 209.55 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6af9cbc-2810-495e-96de-0b6d9b27b4ef")
+	)
+	(junction
 		(at 100.33 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,6 +2777,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e28fdac9-7ecd-4b4c-8b7e-6895587222ff")
+	)
+	(junction
+		(at 275.59 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e751e7f0-7570-43c6-b636-dca468ba48bd")
 	)
 	(junction
 		(at 100.33 146.05)
@@ -2122,6 +2934,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 157.48) (xy 270.51 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b443943-7c22-4b64-a924-9e53c163740f")
+	)
+	(wire
+		(pts
 			(xy 134.62 153.67) (xy 134.62 156.21)
 		)
 		(stroke
@@ -2139,6 +2961,16 @@
 			(type default)
 		)
 		(uuid "25df5309-a375-4b44-85ac-f73a7992805a")
+	)
+	(wire
+		(pts
+			(xy 204.47 184.15) (xy 209.55 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ead820-9057-4e02-9272-5d6e84055595")
 	)
 	(wire
 		(pts
@@ -2162,6 +2994,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 157.48) (xy 280.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afd791e-c11c-4c86-bf6e-e54ca3d123d4")
+	)
+	(wire
+		(pts
 			(xy 134.62 205.74) (xy 134.62 215.9)
 		)
 		(stroke
@@ -2172,6 +3014,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 187.96) (xy 270.51 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3248efdf-66ca-47f0-9671-d4a62a713b5c")
+	)
+	(wire
+		(pts
 			(xy 245.11 71.12) (xy 245.11 72.39)
 		)
 		(stroke
@@ -2179,6 +3031,16 @@
 			(type default)
 		)
 		(uuid "3641a4d1-a067-4cba-8ff2-9f9fa38f9ad4")
+	)
+	(wire
+		(pts
+			(xy 209.55 184.15) (xy 214.63 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39844654-0e32-4c15-ab97-d0cb58f55e3b")
 	)
 	(wire
 		(pts
@@ -2222,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 153.67) (xy 204.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42546f55-6f6b-4078-88e7-324aa88ee193")
+	)
+	(wire
+		(pts
 			(xy 44.45 88.9) (xy 53.34 88.9)
 		)
 		(stroke
@@ -2252,6 +3124,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 153.67) (xy 199.39 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a602985-6a26-4599-aedf-28efd3d0bd24")
+	)
+	(wire
+		(pts
 			(xy 114.3 176.53) (xy 124.46 176.53)
 		)
 		(stroke
@@ -2279,6 +3161,16 @@
 			(type default)
 		)
 		(uuid "50dcbe36-872c-4b57-9277-9f2d0fa46b6f")
+	)
+	(wire
+		(pts
+			(xy 194.31 153.67) (xy 194.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545ddbda-ef3a-4929-9b40-a0f350a91b87")
 	)
 	(wire
 		(pts
@@ -2419,6 +3311,16 @@
 			(type default)
 		)
 		(uuid "715e4301-3223-42e8-a6ec-e102df26a17c")
+	)
+	(wire
+		(pts
+			(xy 209.55 153.67) (xy 209.55 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a05b5f8-ecdf-4584-8985-c912c9128b25")
 	)
 	(wire
 		(pts
@@ -2622,6 +3524,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 157.48) (xy 275.59 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f846f8f-57ec-48d6-8764-74a590320225")
+	)
+	(wire
+		(pts
 			(xy 66.04 88.9) (xy 66.04 91.44)
 		)
 		(stroke
@@ -2669,6 +3581,16 @@
 			(type default)
 		)
 		(uuid "95833dd5-a4fc-40a5-993b-0a4b09867bbe")
+	)
+	(wire
+		(pts
+			(xy 270.51 187.96) (xy 275.59 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961da049-b660-46f7-b208-1607889aebeb")
 	)
 	(wire
 		(pts
@@ -2772,6 +3694,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 187.96) (xy 280.67 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f58350-d1a0-494b-8a3f-23604ad1568a")
+	)
+	(wire
+		(pts
 			(xy 97.79 166.37) (xy 100.33 166.37)
 		)
 		(stroke
@@ -2812,6 +3744,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 187.96) (xy 285.75 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7bb510-c5af-486f-bd39-b53efebaf73c")
+	)
+	(wire
+		(pts
 			(xy 144.78 166.37) (xy 160.02 166.37)
 		)
 		(stroke
@@ -2849,6 +3791,16 @@
 			(type default)
 		)
 		(uuid "b10ea1b3-fa7f-45fa-8b67-e7ed4fd5e83c")
+	)
+	(wire
+		(pts
+			(xy 199.39 184.15) (xy 204.47 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ac100a-f510-43e1-864e-789360aef763")
 	)
 	(wire
 		(pts
@@ -3072,6 +4024,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 157.48) (xy 265.43 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9156164-5c4d-454e-9493-21c398140c29")
+	)
+	(wire
+		(pts
 			(xy 266.7 121.92) (xy 275.59 121.92)
 		)
 		(stroke
@@ -3079,6 +4041,16 @@
 			(type default)
 		)
 		(uuid "da394753-4798-4a84-82f6-e11b6d778b20")
+	)
+	(wire
+		(pts
+			(xy 194.31 184.15) (xy 199.39 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0958c1-ef35-422f-a645-599a232f1b4c")
 	)
 	(wire
 		(pts
@@ -3420,6 +4392,16 @@
 		)
 		(uuid "22399aca-9c33-4357-a4f9-32bfa2a48213")
 	)
+	(label "OT7"
+		(at 280.67 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25adbd01-970b-493f-82a4-d4dac77efb95")
+	)
 	(label "1_A2"
 		(at 121.92 181.61 180)
 		(effects
@@ -3460,6 +4442,16 @@
 		)
 		(uuid "30fc9914-bdc2-4d17-9276-7138478a983c")
 	)
+	(label "OT3"
+		(at 209.55 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "338e2655-567b-42bb-b332-e37ddabb2d85")
+	)
 	(label "IN_P4"
 		(at 82.55 166.37 0)
 		(effects
@@ -3490,6 +4482,16 @@
 		)
 		(uuid "45e1a2d2-1cdc-4d39-be04-73dcc9b5e9d4")
 	)
+	(label "OT5"
+		(at 270.51 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46b6bc72-6cf2-482b-80bd-7c73739aac11")
+	)
 	(label "Input2"
 		(at 46.99 88.9 0)
 		(effects
@@ -3499,6 +4501,16 @@
 			(justify left bottom)
 		)
 		(uuid "4ceada02-08bc-4ea6-83d4-c533e02e2982")
+	)
+	(label "OT0"
+		(at 194.31 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e27452a-cfae-48a6-90c1-39487c3001a9")
 	)
 	(label "Input5"
 		(at 231.14 71.12 0)
@@ -3650,6 +4662,16 @@
 		)
 		(uuid "90866668-e6f4-4573-ad34-3811b34f0cd0")
 	)
+	(label "OT1"
+		(at 199.39 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ed603a-1e1e-4f3d-9b87-6a0b67ca9d4c")
+	)
 	(label "SCL"
 		(at 349.25 209.55 0)
 		(effects
@@ -3720,6 +4742,16 @@
 		)
 		(uuid "a8c6f47a-0e86-46b5-ac3e-4c38a4e2260f")
 	)
+	(label "OT6"
+		(at 275.59 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf98649-a528-4301-8bd6-34f800686fba")
+	)
 	(label "IN_P6"
 		(at 82.55 176.53 0)
 		(effects
@@ -3789,6 +4821,26 @@
 			(justify left bottom)
 		)
 		(uuid "e06103d7-3c30-4d44-91cc-8acce144a711")
+	)
+	(label "OT2"
+		(at 204.47 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eade15fc-6133-4e2e-a85a-8db5affa7523")
+	)
+	(label "OT4"
+		(at 265.43 158.75 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f289e964-b2be-42f7-8046-86a3e718ef35")
 	)
 	(label "IN_P5"
 		(at 267.97 90.17 0)
@@ -4980,6 +6032,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 214.63 184.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "381cb291-9f90-4366-b83d-ac7b6d1418f6")
+		(property "Reference" "#PWR0173"
+			(at 210.82 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 218.44 184.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 214.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72097ebd-32c4-42ff-9dd4-fddfb45cdd6f")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/46fc40ab-03f2-48e3-952c-a0230bfbcd31"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 274.32 127 90)
 		(unit 1)
@@ -5053,6 +6184,85 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/46fc40ab-03f2-48e3-952c-a0230bfbcd31"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 285.75 187.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3871fcde-5eab-4d90-9d29-a8b1bca8d342")
+		(property "Reference" "#PWR0174"
+			(at 281.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 289.56 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 285.75 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fced0ff-e140-40d3-8c93-c582f5571afc")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/46fc40ab-03f2-48e3-952c-a0230bfbcd31"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -7188,6 +8398,226 @@
 		)
 	)
 	(symbol
+		(lib_id "CAY16-103J4LF:resister_array_4_10k_CAY16-103J4LF")
+		(at 201.93 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a04a162d-d053-4d32-b442-f835eb19257d")
+		(property "Reference" "RN4"
+			(at 215.9 173.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "resister_array_4_10k_CAY16-103J4LF"
+			(at 215.646 176.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Resistor, Chip Array,10 Kilohms,62 mW,+ 5%,50 V (Max.) | Bourns CAY16-103J4LF"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "NON STANDARD-8 Bourns"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns/view-part/?ref=eda"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns/view-part/?ref=snap"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CAY16-103J4LF"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 201.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "7"
+			(uuid "38fccde5-9a36-4b2d-bf61-0d24adbfcde8")
+		)
+		(pin "3"
+			(uuid "757d643e-3512-4683-a21a-979832f2af77")
+		)
+		(pin "6"
+			(uuid "8d286487-b85b-4317-9352-c5a9fe6398a4")
+		)
+		(pin "1"
+			(uuid "cbb48ff5-251a-44e3-8a2c-81336e71bede")
+		)
+		(pin "5"
+			(uuid "df0bdd4d-5a06-4b9d-b9de-77fc0aac2041")
+		)
+		(pin "2"
+			(uuid "79fc4e6c-87dd-4017-a586-1869fde527e2")
+		)
+		(pin "4"
+			(uuid "b00af91c-bdd0-480b-8d12-09c13bee3ff2")
+		)
+		(pin "8"
+			(uuid "0a51d879-bb16-4d0a-8f18-6bcb752b8c3a")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/46fc40ab-03f2-48e3-952c-a0230bfbcd31"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 60.96 93.98 0)
 		(unit 1)
@@ -8830,6 +10260,226 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/46fc40ab-03f2-48e3-952c-a0230bfbcd31"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAY16-103J4LF:resister_array_4_10k_CAY16-103J4LF")
+		(at 273.05 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbe02e0a-38be-477e-ba45-9e0c0d31ad6e")
+		(property "Reference" "RN5"
+			(at 287.02 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "resister_array_4_10k_CAY16-103J4LF"
+			(at 287.274 181.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Resistor, Chip Array,10 Kilohms,62 mW,+ 5%,50 V (Max.) | Bourns CAY16-103J4LF"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "NON STANDARD-8 Bourns"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns/view-part/?ref=eda"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CAY16-103J4LF/Bourns/view-part/?ref=snap"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CAY16-103J4LF"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 273.05 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "7"
+			(uuid "20e9fb42-219d-4281-9126-6a8e99d855c9")
+		)
+		(pin "3"
+			(uuid "7678af3b-14ed-4c38-8462-e7417476ec17")
+		)
+		(pin "6"
+			(uuid "16d45a49-9a21-44f7-9e9e-8904253a74c0")
+		)
+		(pin "1"
+			(uuid "2ae58dd9-74db-4e83-9dda-3f430d884814")
+		)
+		(pin "5"
+			(uuid "281c3877-9e7e-459f-9a60-f01bfe384467")
+		)
+		(pin "2"
+			(uuid "b47902db-2670-4c87-8ec2-f41f2f1d286d")
+		)
+		(pin "4"
+			(uuid "581540c5-c2be-444d-b357-d04173c53e49")
+		)
+		(pin "8"
+			(uuid "be53b063-400f-4fd1-a976-a013f73881f1")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/46fc40ab-03f2-48e3-952c-a0230bfbcd31"
+					(reference "RN5")
 					(unit 1)
 				)
 			)
