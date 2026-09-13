@@ -918,7 +918,7 @@
         "uuid": "65a0f6c1-6a57-4cd2-a77c-79691e6171da"
       }
     ],
-    "used_designators": "U46,U49-51,#PWR9,#PWR29,#PWR267-304,C45-67,BZ1,R159-160,R183-198,J9,J18,RN3,RN9-10,Y4,JP1,Q1",
+    "used_designators": "U46,U49-51,#PWR9,#PWR29,#PWR267-304,C26-29,C45-67,BZ1,R159-160,R183-198,J9,J18,RN3,RN9-10,Y4,JP1,Q1",
     "variants": []
   },
   "sheets": [
@@ -951,14 +951,6 @@
       "SD CARD"
     ],
     [
-      "1f1026b5-48d2-4631-83dd-b99d53672b0a",
-      "ETHERNET"
-    ],
-    [
-      "9fb538e7-7124-4cc4-a053-393a3181c19e",
-      "RS485 v1"
-    ],
-    [
       "40ee65e9-2fd8-4eed-8511-b217a3b2d635",
       "RS485 v2"
     ],
@@ -967,24 +959,12 @@
       "USB_C to UART"
     ],
     [
-      "c20d2d40-6a62-4416-bf0d-0a366e5f221d",
-      "External Connections"
-    ],
-    [
       "69b8f423-23b5-4474-97f0-888694778d40",
       "Buzzer"
     ],
     [
       "215f9304-bba5-45cb-b5e0-92fc6886444a",
       "ADC PINS"
-    ],
-    [
-      "f0494f40-a320-4e8c-a704-3969cfee28f3",
-      "Ethernet W5500"
-    ],
-    [
-      "d8286223-b948-4551-bbb1-cb44195d0ce1",
-      "RTC2"
     ],
     [
       "f6669ae1-3267-49a1-8e24-ea638f49727b",
