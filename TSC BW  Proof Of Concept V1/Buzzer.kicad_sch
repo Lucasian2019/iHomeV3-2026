@@ -1050,12 +1050,6 @@
 		(uuid "9963fab9-1f7c-4265-b04b-24c1488ec7a3")
 	)
 	(junction
-		(at 149.86 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5d5050d-9909-4d78-a6b9-a80a2a8f2fa5")
-	)
-	(junction
 		(at 143.51 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1073,23 +1067,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 156.21 90.17)
+			(xy 153.67 85.09) (xy 153.67 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06abf484-86eb-4c63-b279-0e2ad4510faa")
-	)
-	(wire
-		(pts
-			(xy 144.78 90.17) (xy 149.86 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fc82d46-c33b-4a4c-b30e-3dbca360369c")
+		(uuid "241959f7-7257-432a-bfb6-29848ce91fa0")
 	)
 	(wire
 		(pts
@@ -1103,6 +1087,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 67.31) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd8c25a-dd7d-44c2-8b4b-f1eadfaf6842")
+	)
+	(wire
+		(pts
 			(xy 143.51 104.14) (xy 146.05 104.14)
 		)
 		(stroke
@@ -1113,23 +1107,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 119.38 104.14)
+			(xy 109.22 104.14) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "497f51da-5c04-420f-a28c-b3eebf26e88b")
-	)
-	(wire
-		(pts
-			(xy 129.54 104.14) (xy 132.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a5f9c43-51d2-4275-a058-fc519149f65e")
 	)
 	(wire
 		(pts
@@ -1150,6 +1134,16 @@
 			(type default)
 		)
 		(uuid "7bd897e4-d591-4a22-9276-a326925ece93")
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99aed562-2407-4133-8427-298fe47306f6")
 	)
 	(wire
 		(pts
@@ -1192,7 +1186,7 @@
 		(uuid "f9827390-7ce2-48a9-b029-d438ee43b1b0")
 	)
 	(label "buzzer"
-		(at 116.84 104.14 180)
+		(at 125.73 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1237,7 +1231,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 149.86 90.17 0)
+		(at 153.67 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1248,7 +1242,7 @@
 		(fields_autoplaced yes)
 		(uuid "01829307-b48e-4a3a-8165-3666c62c57ae")
 		(property "Reference" "#PWR09"
-			(at 149.86 93.98 0)
+			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1259,7 +1253,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 85.09 0)
+			(at 153.67 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1269,7 +1263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 90.17 0)
+			(at 153.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1280,7 +1274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 90.17 0)
+			(at 153.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,7 +1285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 90.17 0)
+			(at 153.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1485,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 147.574 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1632,86 +1626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 124.46 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e394ff6-54c3-44a0-bfd2-a74c1f2e0fda")
-		(property "Reference" "JP1"
-			(at 124.46 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 124.46 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 124.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 124.46 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5ffff909-fd3f-4cff-a81f-2a1bf818d3c1")
-		)
-		(pin "1"
-			(uuid "86d8ce4f-b167-4e40-8d58-50029e5fd70a")
-		)
-		(instances
-			(project "TSC BW 16 V3 POC"
-				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC817")
 		(at 151.13 104.14 0)
 		(unit 1)
@@ -1816,6 +1730,88 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 153.67 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cfa8012-a97a-4db9-8351-ff5914ef0009")
+		(property "Reference" "JP3"
+			(at 156.21 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 153.67 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21436d5f-f4e6-476a-abdf-479d6a680a76")
+		)
+		(pin "1"
+			(uuid "8c04c014-eb74-4519-b050-0faa4b748f60")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/69b8f423-23b5-4474-97f0-888694778d40"
+					(reference "JP3")
 					(unit 1)
 				)
 			)

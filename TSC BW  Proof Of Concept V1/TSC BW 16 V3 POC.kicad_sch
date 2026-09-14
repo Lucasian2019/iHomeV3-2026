@@ -64,7 +64,7 @@
 			(type solid)
 		)
 		(fill
-			(color 127 90 255 1)
+			(color 255 235 0 1)
 		)
 		(uuid "215f9304-bba5-45cb-b5e0-92fc6886444a")
 		(property "Sheetname" "ADC PINS"
@@ -248,7 +248,7 @@
 			(type solid)
 		)
 		(fill
-			(color 18 255 6 1)
+			(color 255 241 0 1)
 		)
 		(uuid "69b8f423-23b5-4474-97f0-888694778d40")
 		(property "Sheetname" "Buzzer"
@@ -294,7 +294,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 5 1)
+			(color 255 241 5 1)
 		)
 		(uuid "c11a62e4-71cb-4580-bf6a-0087dc250c43")
 		(property "Sheetname" "Power Supply"
@@ -340,7 +340,7 @@
 			(type solid)
 		)
 		(fill
-			(color 5 255 14 1)
+			(color 255 254 0 1)
 		)
 		(uuid "c454aa56-c48d-4b02-ae8d-5508b49e4f18")
 		(property "Sheetname" "SD CARD"
@@ -386,7 +386,7 @@
 			(type solid)
 		)
 		(fill
-			(color 1 255 13 1)
+			(color 255 242 0 1)
 		)
 		(uuid "c74c7530-d8b4-4eb2-9788-6af0f5549dcd")
 		(property "Sheetname" "USB_C to UART"
@@ -432,7 +432,7 @@
 			(type solid)
 		)
 		(fill
-			(color 15 255 34 1)
+			(color 255 232 0 1)
 		)
 		(uuid "f360778a-4100-4e67-bb28-4591c77fa6f9")
 		(property "Sheetname" "RTC"

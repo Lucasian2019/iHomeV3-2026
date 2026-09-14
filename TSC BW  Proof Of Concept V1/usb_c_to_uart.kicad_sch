@@ -1578,6 +1578,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LESD5D5.0CT1G_1"
 			(pin_names
 				(offset 1.016)
@@ -2705,7 +2883,7 @@
 	)
 	(text "USB - TO - UART"
 		(exclude_from_sim no)
-		(at 67.564 37.592 0)
+		(at 71.374 22.098 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2753,12 +2931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00c6b8bc-585a-4ae9-858b-65fc19ef877f")
-	)
-	(junction
-		(at 77.47 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1234b91d-b6cf-473d-aa98-3d096b734b61")
 	)
 	(junction
 		(at 44.45 93.98)
@@ -2831,6 +3003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e79815a0-b6fa-4629-b1ef-1d642869c965")
+	)
+	(junction
+		(at 77.47 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eae8aba9-9ed8-4cc3-9c90-e451a43daeb9")
 	)
 	(no_connect
 		(at 151.13 71.12)
@@ -2969,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "2796954c-3b46-457b-83e1-10a4c408398a")
+	)
+	(wire
+		(pts
+			(xy 77.47 48.26) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d115e9-0b38-412e-8bda-901f2d8d22e7")
 	)
 	(wire
 		(pts
@@ -3552,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 54.61) (xy 77.47 55.88)
+			(xy 77.47 33.02) (xy 77.47 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5178,6 +5366,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 77.47 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7882111f-0f5d-4b86-8395-e0a902224534")
+		(property "Reference" "JP6"
+			(at 80.01 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 77.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 72.39 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "504479f0-e80c-4957-9c31-be8d96f9229e")
+		)
+		(pin "1"
+			(uuid "016c88aa-af48-4a7b-8cb2-a55875800bdb")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/c74c7530-d8b4-4eb2-9788-6af0f5549dcd"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:SS8050")
 		(at 219.71 62.23 0)
 		(unit 1)
@@ -5730,7 +6000,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 77.47 54.61 0)
+		(at 77.47 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5741,7 +6011,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0287afa-56e8-4ac3-b778-16f8b4bc30ee")
 		(property "Reference" "#PWR0215"
-			(at 77.47 58.42 0)
+			(at 77.47 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +6022,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 77.47 49.53 0)
+			(at 77.47 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5762,7 +6032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 54.61 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 54.61 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,7 +6054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 54.61 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
