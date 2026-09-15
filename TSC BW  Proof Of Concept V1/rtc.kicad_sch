@@ -839,30 +839,30 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -3.81 3.81 0)
+			(property "Reference" "J2"
+				(at 0.6351 -3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Value" "CR1220_S8411_45R"
-				(at -3.81 -5.08 0)
+				(at 10.16 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
-			(property "Footprint" "S8411-45R:HARWIN_S8411-45R"
-				(at 0 0 0)
+			(property "Footprint" "Battery:BatteryHolder_Keystone_500"
+				(at 1.524 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -885,7 +885,7 @@
 				)
 			)
 			(property "Description" "Coin Cell Battery Retainer, Horizontal SMT, for CR1220 Coin Cell Batteries, Tape & Reeled"
-				(at 0 0 0)
+				(at 1.524 -13.462 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -909,7 +909,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "4.25mm"
-				(at 0 0 0)
+				(at 13.97 -3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -921,7 +921,7 @@
 				)
 			)
 			(property "Package" "None"
-				(at 0 0 0)
+				(at 0.508 -2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -933,7 +933,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 12.954 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -945,7 +945,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 3.302 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -957,7 +957,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+				(at 1.524 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -981,7 +981,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=snap"
-				(at 0 0 0)
+				(at -1.27 -7.112 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -993,7 +993,7 @@
 				)
 			)
 			(property "MP" "S8411-45R"
-				(at 0 0 0)
+				(at 0.254 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1005,7 +1005,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
+				(at 15.24 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1017,7 +1017,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Harwin"
-				(at 0 0 0)
+				(at 0.508 -4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1125,24 +1125,8 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
+			)
+			(symbol "CR1220_S8411_45R_1_0"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 5.08)
@@ -1153,7 +1137,25 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1669,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 85.09) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8bebf4-8f96-40f0-afce-97a3cbdda374")
+	)
+	(wire
+		(pts
 			(xy 152.4 52.07) (xy 152.4 85.09)
 		)
 		(stroke
@@ -1736,16 +1748,6 @@
 			(type default)
 		)
 		(uuid "d1e0c856-c1e1-45e9-9d63-23059b7b8eac")
-	)
-	(wire
-		(pts
-			(xy 144.78 85.09) (xy 144.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b6581a-ae39-44ae-a49e-1736126a9e8d")
 	)
 	(wire
 		(pts
@@ -2297,8 +2299,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "external_lib:CR1220_HARWIN_S8411-45R"
-			(at 144.78 77.47 0)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_500"
+			(at 135.89 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2323,7 @@
 			)
 		)
 		(property "Description" "Coin Cell Battery Retainer, Horizontal SMT, for CR1220 Coin Cell Batteries, Tape & Reeled"
-			(at 144.78 77.47 0)
+			(at 158.242 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2345,7 +2347,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.25mm"
-			(at 144.78 77.47 0)
+			(at 147.828 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2357,7 +2359,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 144.78 77.47 0)
+			(at 147.574 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,7 +2371,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 144.78 77.47 0)
+			(at 140.462 64.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2381,7 +2383,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=eda"
-			(at 144.78 77.47 0)
+			(at 157.226 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2395,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 144.78 77.47 0)
+			(at 154.94 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2419,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=snap"
-			(at 144.78 77.47 0)
+			(at 151.892 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,7 +2431,7 @@
 			)
 		)
 		(property "MP" "S8411-45R"
-			(at 144.78 77.47 0)
+			(at 147.32 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +2443,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 144.78 77.47 0)
+			(at 143.002 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2453,7 +2455,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Harwin"
-			(at 144.78 77.47 0)
+			(at 148.844 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,10 +2466,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "54b586e8-c239-4861-adc3-149ff9ddbf09")
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "cd8d3095-d7e1-4299-8e58-51cc983d1ed5")
 		)
 		(instances

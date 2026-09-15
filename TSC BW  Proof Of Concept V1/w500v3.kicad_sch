@@ -7961,7 +7961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "external_lib:RJ45_Hanrun_HR911105A_Horizontal_3D"
+		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
 			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)

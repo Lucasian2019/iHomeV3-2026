@@ -2969,6 +2969,12 @@
 		(uuid "a7edcb57-09cb-46c3-b29a-1e5681fb74e3")
 	)
 	(junction
+		(at 77.47 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae12a767-8509-4a92-9e64-ae5165588f0b")
+	)
+	(junction
 		(at 64.77 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3003,12 +3009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e79815a0-b6fa-4629-b1ef-1d642869c965")
-	)
-	(junction
-		(at 77.47 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eae8aba9-9ed8-4cc3-9c90-e451a43daeb9")
 	)
 	(no_connect
 		(at 151.13 71.12)
@@ -3330,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 55.88) (xy 81.28 55.88)
+			(xy 77.47 55.88) (xy 83.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6236,7 +6236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 55.88 90)
+		(at 91.44 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6247,7 +6247,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1e3cef3-ba95-4952-9c18-d812238b710b")
 		(property "Reference" "#PWR0216"
-			(at 95.25 55.88 0)
+			(at 97.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6258,7 +6258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 55.8799 90)
+			(at 95.25 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 55.88 0)
+			(at 91.44 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6280,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 55.88 0)
+			(at 91.44 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6291,7 +6291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 55.88 0)
+			(at 91.44 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +6477,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 55.88 90)
+		(at 87.63 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6487,7 +6487,7 @@
 		(dnp no)
 		(uuid "be5be942-78f6-4dff-8ec8-32b47ce19d83")
 		(property "Reference" "C23"
-			(at 81.28 54.102 0)
+			(at 83.82 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6498,7 +6498,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 88.138 54.864 0)
+			(at 90.678 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6509,7 +6509,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 88.9 54.9148 0)
+			(at 91.44 54.9148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6520,7 +6520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 55.88 0)
+			(at 87.63 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,7 +6531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 55.88 0)
+			(at 87.63 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
