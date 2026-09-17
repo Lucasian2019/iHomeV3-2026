@@ -3696,12 +3696,6 @@
 		(uuid "457d683d-2294-45ea-9273-d3947ec96126")
 	)
 	(junction
-		(at 302.26 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47dc9d9a-40ba-45b9-8e0a-894df509bad8")
-	)
-	(junction
 		(at 137.16 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3790,6 +3784,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6428b4c-d255-40ef-8fdd-238f856c3f43")
+	)
+	(junction
+		(at 302.26 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e73418ba-903e-4a88-b901-bf30bd1597e7")
 	)
 	(junction
 		(at 300.99 64.77)
@@ -6279,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 135.128 90)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 166.878 90)
 			(hide yes)
 			(show_name no)
@@ -7008,7 +7008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 324.612 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -7410,7 +7410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 98.552 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7578,7 +7578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -8754,7 +8754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 302.768 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8837,7 +8837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 318.77 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +8998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 304.038 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -9077,7 +9077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 299.72 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -9156,7 +9156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 270.51 169.418 90)
 			(hide yes)
 			(show_name no)
@@ -9480,7 +9480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 323.342 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9559,7 +9559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 43.18 140.208 90)
 			(hide yes)
 			(show_name no)
@@ -9717,7 +9717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 297.18 66.548 90)
 			(hide yes)
 			(show_name no)
@@ -9878,7 +9878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.978 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -10035,7 +10035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.518 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10118,7 +10118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 320.04 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10199,7 +10199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 98.552 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -10439,7 +10439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 320.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10762,7 +10762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -10841,7 +10841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -10920,7 +10920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 267.97 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -11001,7 +11001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 322.072 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -11080,7 +11080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 269.24 137.668 90)
 			(hide yes)
 			(show_name no)
@@ -11328,7 +11328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 323.342 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -11485,7 +11485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 79.248 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -11967,7 +11967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 274.32 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -12185,7 +12185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 305.308 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -12440,7 +12440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 304.038 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -12596,7 +12596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -12909,7 +12909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 298.45 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -13047,7 +13047,7 @@
 		(dnp no)
 		(uuid "c3c1f996-bada-4e93-b056-c711a8f9abdf")
 		(property "Reference" "R101"
-			(at 298.196 128.778 90)
+			(at 298.196 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13056,8 +13056,8 @@
 				)
 			)
 		)
-		(property "Value" "8.2k"
-			(at 298.704 11.938 90)
+		(property "Value" "470R"
+			(at 298.45 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13066,7 +13066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 298.45 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -13227,7 +13227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 321.31 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13462,7 +13462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 270.51 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -13543,7 +13543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 99.822 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -13701,7 +13701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 79.248 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -13860,7 +13860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 134.62 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -14662,7 +14662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.282 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -14819,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 171.958 90)
 			(hide yes)
 			(show_name no)
