@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -6267,7 +6306,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "1c84a848-5b35-413a-ad79-95144432b7a9")
-		(at 131.189 149.801)
+		(at 131.191 150.241)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J14"
@@ -6458,12 +6497,11 @@
 		(units
 			(unit
 				(name "A")
-				(pins "S1" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
 					"A6" "B6" "A8" "B8"
 				)
 			)
 		)
-		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.67 -0.1)
@@ -6722,6 +6760,9 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(uuid "b7511ee9-8dc5-4801-8a1d-056e73505c95")
 		)
 		(pad "SH" thru_hole oval
@@ -6731,6 +6772,9 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(uuid "ec6af3aa-4a6f-4dc6-9624-b7a54afd996b")
 		)
 		(pad "SH" thru_hole oval
@@ -6740,6 +6784,9 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(uuid "9f7b42e3-1e22-48fd-ac25-0e8bc9114655")
 		)
 		(pad "SH" thru_hole oval
@@ -6749,6 +6796,9 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(uuid "300b9d50-4b75-4470-8e13-aa161adbc7ea")
 		)
 		(embedded_fonts no)
@@ -7462,14 +7512,14 @@
 	(footprint "RF_Module:ESP32-S3-WROOM-1"
 		(layer "F.Cu")
 		(uuid "21e991ce-36df-4d58-89da-b7acbdce0923")
-		(at 165.59 141.321 180)
+		(at 163.857 143.179 180)
 		(descr "2.4 GHz Wi-Fi and Bluetooth module  https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf")
 		(tags "2.4 GHz Wi-Fi and Bluetooth module")
 		(property "Reference" "U3"
 			(at -10.5 11.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ef3a4cdd-0019-4815-9ab2-5b2708ac1532")
+			(uuid "b252236e-da8a-4ccc-a5e0-1ae5e11fc442")
 			(effects
 				(font
 					(size 1 1)
@@ -7481,7 +7531,7 @@
 			(at 0 14.6 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a7ea3a1a-79a2-4225-951d-93e70dc72557")
+			(uuid "28cff163-6c75-4819-bf1c-b0650ab89260")
 			(effects
 				(font
 					(size 1 1)
@@ -7494,7 +7544,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4bb7144c-0436-4054-957a-67bccbc6bac0")
+			(uuid "2bdb303d-577a-48ec-81ac-410af535f91b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7557,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ef95413-f3a9-4c32-9bf4-b3bb8238c15d")
+			(uuid "ebd36f87-94a4-4e97-bb63-5249797120f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +8563,7 @@
 			)
 			(polygon
 				(pts
-					(xy 189.59 148.071) (xy 141.59 148.071) (xy 141.59 169.071) (xy 189.59 169.071)
+					(xy 187.857 149.929) (xy 139.857 149.929) (xy 139.857 170.929) (xy 187.857 170.929)
 				)
 			)
 		)
@@ -42024,7 +42074,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "10" "9" "11")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "10" "9" "SH")
 			)
 		)
 		(attr smd)
@@ -42582,24 +42632,36 @@
 			(at -6.825 -3.425)
 			(size 1 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/SD CARD/CGND")
+			(pinfunction "SH_SH")
+			(pintype "passive")
 			(uuid "adca761d-0805-4bee-9632-2b8f85b18dff")
 		)
 		(pad "SH" smd rect
 			(at -6.825 6.925)
 			(size 1 2.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/SD CARD/CGND")
+			(pinfunction "SH_SH")
+			(pintype "passive")
 			(uuid "7d7de8ac-d217-46b2-9fa0-469672d4744a")
 		)
 		(pad "SH" smd rect
 			(at 4.325 -7.725)
 			(size 1 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/SD CARD/CGND")
+			(pinfunction "SH_SH")
+			(pintype "passive")
 			(uuid "1a716a57-2b3a-46bb-9fa5-ffa24ff530e2")
 		)
 		(pad "SH" smd rect
 			(at 6.675 7.375)
 			(size 1.3 1.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/SD CARD/CGND")
+			(pinfunction "SH_SH")
+			(pintype "passive")
 			(uuid "22dc9e4c-dd66-4470-bc32-0dce9c047999")
 		)
 		(zone
