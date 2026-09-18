@@ -927,6 +927,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:B150-E3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B150-E3"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B150-E3_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B150-E3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:PCF8574T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3654,6 +3819,18 @@
 		(uuid "d4f92709-d713-4087-86e8-3efb7316ae70")
 	)
 	(junction
+		(at 370.84 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e4d3dd-9a8c-4ed2-ab0b-509416726ce4")
+	)
+	(junction
+		(at 148.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "056b8b90-c768-4909-b496-e8b7c9f08d69")
+	)
+	(junction
 		(at 317.5 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3676,6 +3853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dfe1d41-7783-42f5-9775-70ffa1a7b90a")
+	)
+	(junction
+		(at 370.84 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34879f48-90d8-4792-af59-a7ba55e59e49")
 	)
 	(junction
 		(at 302.26 96.52)
@@ -3726,6 +3909,12 @@
 		(uuid "6e6e0053-1a07-42f5-b94f-5a2343b3d558")
 	)
 	(junction
+		(at 148.59 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f48a204-a29d-4fd9-8583-840e18b487f8")
+	)
+	(junction
 		(at 91.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3748,6 +3937,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab683647-3223-422c-9ffa-3ac83bf237da")
+	)
+	(junction
+		(at 148.59 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18b57f2-f1f4-4329-946c-fe46bc9117e7")
 	)
 	(junction
 		(at 77.47 133.35)
@@ -3778,6 +3973,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4eba45f-6ec3-47ab-a1a3-2275431fa982")
+	)
+	(junction
+		(at 370.84 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de6eaa4c-270c-47cb-8701-e670e3a359a3")
 	)
 	(junction
 		(at 316.23 87.63)
@@ -3895,6 +4096,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 104.14) (xy 364.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100a56d8-92db-4483-9b0d-883a81acc0b2")
+	)
+	(wire
+		(pts
 			(xy 316.23 121.92) (xy 325.12 121.92)
 		)
 		(stroke
@@ -3922,6 +4133,16 @@
 			(type default)
 		)
 		(uuid "1b1278c2-fe24-4015-888a-7c9637a2c126")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc18a1b-4e54-43b5-86bf-ab068f22268a")
 	)
 	(wire
 		(pts
@@ -4022,6 +4243,16 @@
 			(type default)
 		)
 		(uuid "2b958711-f662-4120-ab58-6252777c03f0")
+	)
+	(wire
+		(pts
+			(xy 364.49 81.28) (xy 370.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba106f3-6dd4-43a5-8301-4b0e2557c697")
 	)
 	(wire
 		(pts
@@ -4222,6 +4453,16 @@
 			(type default)
 		)
 		(uuid "49c7c4f1-8d51-41c2-be32-905c9385c734")
+	)
+	(wire
+		(pts
+			(xy 370.84 69.85) (xy 370.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7f77fd-4e5b-4289-a598-7a1416b92c8e")
 	)
 	(wire
 		(pts
@@ -4465,6 +4706,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 96.52) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e95406-b0ec-494d-b0d0-952c936c3c22")
+	)
+	(wire
+		(pts
 			(xy 314.96 55.88) (xy 323.85 55.88)
 		)
 		(stroke
@@ -4472,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "751c2879-fd59-4ed0-843b-12a7777d280e")
+	)
+	(wire
+		(pts
+			(xy 364.49 69.85) (xy 370.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cf2ef1-1fde-4560-a5bd-8e404ff8aef4")
 	)
 	(wire
 		(pts
@@ -4555,6 +4816,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 96.52) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895ea67e-80c8-4bea-a899-2c2c9cddc4e0")
+	)
+	(wire
+		(pts
 			(xy 90.17 58.42) (xy 90.17 60.96)
 		)
 		(stroke
@@ -4582,6 +4853,16 @@
 			(type default)
 		)
 		(uuid "8b9a8837-a0f1-4307-8398-92c1686a5ce5")
+	)
+	(wire
+		(pts
+			(xy 347.98 104.14) (xy 356.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d40d217-2a63-4f60-bc5d-9c5d162c0c17")
 	)
 	(wire
 		(pts
@@ -4635,6 +4916,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 92.71) (xy 370.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9314f84a-ea31-4fc6-9d98-195ec382ac9e")
+	)
+	(wire
+		(pts
 			(xy 91.44 121.92) (xy 91.44 124.46)
 		)
 		(stroke
@@ -4642,6 +4933,16 @@
 			(type default)
 		)
 		(uuid "94ac1ce1-b662-4247-9e2a-49f98191f0a3")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950dda33-50e8-439a-900c-b3c381878b35")
 	)
 	(wire
 		(pts
@@ -4662,6 +4963,26 @@
 			(type default)
 		)
 		(uuid "95c4a748-8db4-476f-b734-539dcc1dae81")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d4367f-76bf-44a3-9f18-adacbbe70b69")
+	)
+	(wire
+		(pts
+			(xy 125.73 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f359c5-c1cf-4fbc-ae59-a68456ef35c6")
 	)
 	(wire
 		(pts
@@ -4745,6 +5066,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9acb114e-645e-4377-ab68-09af4c198a23")
+	)
+	(wire
+		(pts
 			(xy 90.17 72.39) (xy 90.17 77.47)
 		)
 		(stroke
@@ -4802,6 +5133,16 @@
 			(type default)
 		)
 		(uuid "a23e489a-1d0b-4002-b209-68d1d0c71efe")
+	)
+	(wire
+		(pts
+			(xy 370.84 104.14) (xy 370.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4845427-16d0-452d-b1f0-dfcc89f71b1c")
 	)
 	(wire
 		(pts
@@ -4872,6 +5213,16 @@
 			(type default)
 		)
 		(uuid "ae088d4e-3c0e-42e8-97b9-3c6d2c5e1c26")
+	)
+	(wire
+		(pts
+			(xy 347.98 81.28) (xy 356.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae68e3b3-aabe-45c3-baf7-6050efd8ad62")
 	)
 	(wire
 		(pts
@@ -5015,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70b102d-5afa-4e88-a52f-d4e9a71f61f7")
+	)
+	(wire
+		(pts
 			(xy 303.53 162.56) (xy 303.53 165.1)
 		)
 		(stroke
@@ -5032,6 +5393,26 @@
 			(type default)
 		)
 		(uuid "c88b9b8e-cbe6-42da-a78e-432118311dfe")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fd04a8-40b4-4e96-85cd-ed3d676c0415")
+	)
+	(wire
+		(pts
+			(xy 347.98 92.71) (xy 356.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf3d2e3-aa8c-4a65-b751-5d3ec31e70fa")
 	)
 	(wire
 		(pts
@@ -5055,6 +5436,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 92.71) (xy 370.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05b2001-933f-46b9-bd13-f697d8816e2b")
+	)
+	(wire
+		(pts
 			(xy 67.31 99.06) (xy 69.85 99.06)
 		)
 		(stroke
@@ -5075,6 +5466,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 85.09) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d604621d-c8d3-4650-b142-a3fdb122c1f9")
+	)
+	(wire
+		(pts
 			(xy 316.23 101.6) (xy 316.23 106.68)
 		)
 		(stroke
@@ -5092,6 +5493,16 @@
 			(type default)
 		)
 		(uuid "d6571eb3-ca40-4974-943b-22418397995c")
+	)
+	(wire
+		(pts
+			(xy 370.84 81.28) (xy 370.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a67f5e-5cfd-4670-a761-7717f100c077")
 	)
 	(wire
 		(pts
@@ -5145,6 +5556,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 69.85) (xy 356.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc681332-a1e9-4ff2-a084-d8b49f9b7afa")
+	)
+	(wire
+		(pts
 			(xy 33.02 170.18) (xy 40.64 170.18)
 		)
 		(stroke
@@ -5162,6 +5583,16 @@
 			(type default)
 		)
 		(uuid "e1bad0e3-0ec5-408c-9fb6-c20f7a11f29b")
+	)
+	(wire
+		(pts
+			(xy 148.59 107.95) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30941e5-3550-43aa-88b3-cb59226a2272")
 	)
 	(wire
 		(pts
@@ -5232,6 +5663,16 @@
 			(type default)
 		)
 		(uuid "f0b759ff-70bc-4450-a575-4ba2a100d6ae")
+	)
+	(wire
+		(pts
+			(xy 125.73 107.95) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f197a71b-41a6-4ee9-b5f3-8e77b3eccfa4")
 	)
 	(wire
 		(pts
@@ -5363,6 +5804,16 @@
 		)
 		(uuid "0449365c-d13d-42e6-b2e4-04f6bf633809")
 	)
+	(label "outp3"
+		(at 133.35 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "076a577d-1d15-48b8-947e-9e25086f5546")
+	)
 	(label "outp6"
 		(at 45.72 203.2 180)
 		(effects
@@ -5372,6 +5823,16 @@
 			(justify right bottom)
 		)
 		(uuid "0a588a19-ca1b-423e-bce9-2d218960dffd")
+	)
+	(label "outp8"
+		(at 354.33 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cd188f5-a95c-44d4-aea1-a2a323fc7386")
 	)
 	(label "OT0"
 		(at 193.04 156.21 0)
@@ -5593,6 +6054,26 @@
 		)
 		(uuid "67921cef-3720-4be8-939f-cdaf24009fa9")
 	)
+	(label "outp2"
+		(at 132.08 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b2b4bb2-2ec6-40dc-a8e6-7a0affdf7e1b")
+	)
+	(label "outp4"
+		(at 133.35 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c455d19-a481-45a5-8d55-57de68ee28e1")
+	)
 	(label "OT1"
 		(at 196.85 158.75 180)
 		(effects
@@ -5673,6 +6154,16 @@
 		)
 		(uuid "9b3047ff-c062-425b-b13e-97de80123ec6")
 	)
+	(label "outp6"
+		(at 354.33 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bbba7a2-fc8d-483d-9eee-da19fecf546b")
+	)
 	(label "outp8"
 		(at 316.23 153.67 90)
 		(effects
@@ -5702,6 +6193,16 @@
 			(justify right bottom)
 		)
 		(uuid "b718fbe6-52d3-4646-aaf9-746dd0d1b21d")
+	)
+	(label "outp7"
+		(at 354.33 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc09fde8-b244-46fd-9804-c6df8196c248")
 	)
 	(label "OT6"
 		(at 276.86 212.09 90)
@@ -5773,6 +6274,16 @@
 		)
 		(uuid "dcc34849-6850-4576-bbec-b5a247bfac87")
 	)
+	(label "outp1"
+		(at 132.08 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcfc4aaa-9fda-4167-a28c-d73d406c8af1")
+	)
 	(label "3_A1"
 		(at 78.74 207.01 90)
 		(effects
@@ -5832,6 +6343,16 @@
 			(justify left bottom)
 		)
 		(uuid "fba1afcd-b1fe-4d81-8beb-d2b2c5a8523c")
+	)
+	(label "outp5"
+		(at 354.33 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdb5761b-52b7-4612-9f35-097657845a87")
 	)
 	(label "SCL"
 		(at 165.1 156.21 180)
@@ -6359,6 +6880,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 360.68 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07084f82-2a74-4ca7-af73-3535bbaf319a")
+		(property "Reference" "D10"
+			(at 360.3625 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 360.3625 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 360.68 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 360.68 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 360.68 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e34a0ea-0d8e-4afc-a947-0a2cbccf6ede")
+		)
+		(pin "1"
+			(uuid "00cdd220-6e15-4003-85a7-59a65f4374bc")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 73.66 133.35 90)
 		(unit 1)
@@ -6542,6 +7143,84 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
 					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 370.84 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cd23b16-e024-4c3a-87b5-00735235b8c1")
+		(property "Reference" "#PWR099"
+			(at 370.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 369.316 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 370.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b5554de-f7fa-416f-96ff-f2e134837deb")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -6734,6 +7413,86 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 138.43 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "107ab76e-6e66-4cd6-b07a-ba9aa9350fd8")
+		(property "Reference" "D17"
+			(at 138.1125 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 138.1125 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 138.43 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c449e89b-35a3-435d-aaa0-864f93acad13")
+		)
+		(pin "1"
+			(uuid "31a100c5-a4a8-4645-8176-ad4bfeeea369")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7827,6 +8586,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 360.68 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ca85f6-0557-418c-b5d6-d46ad95a604a")
+		(property "Reference" "D6"
+			(at 360.3625 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 360.3625 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 360.68 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 360.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 360.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c952dfe-557e-45cb-ba70-bc94a393d0c0")
+		)
+		(pin "1"
+			(uuid "1954b088-c02e-4a07-bc41-ad42b77e78ae")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:SUD08P06-155L")
 		(at 88.9 133.35 0)
 		(unit 1)
@@ -8443,6 +9282,86 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 360.68 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d1a3f49-1a44-4c4c-9fcc-37fb93185aa9")
+		(property "Reference" "D13"
+			(at 360.3625 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 360.3625 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 360.68 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 360.68 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 360.68 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2abebc97-f4f7-4ab0-9274-db597921aeb5")
+		)
+		(pin "1"
+			(uuid "e6d1712c-a5c5-42a7-86fb-7a4517dd04e1")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -9347,6 +10266,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 138.43 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d87fdd-d786-4a29-af29-c6e9f295906b")
+		(property "Reference" "D14"
+			(at 138.1125 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 138.1125 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 138.43 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 138.43 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 138.43 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e2aed28-f0a4-4d48-b685-2a7b7f8a980e")
+		)
+		(pin "1"
+			(uuid "38db5a07-c1a3-4ea7-986a-4f63ed92a260")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 300.99 74.93 180)
 		(unit 1)
@@ -10009,6 +11008,86 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
 					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 138.43 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46f417a3-ab1b-4a94-ac1d-9128f1277960")
+		(property "Reference" "D18"
+			(at 138.1125 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 138.1125 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 138.43 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 138.43 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 138.43 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a64976c-0ac0-4440-93ad-4af32aeeba8c")
+		)
+		(pin "1"
+			(uuid "ee2b3c7f-732a-4b6c-b5a6-6a7fbb7bc697")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -15387,6 +16466,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 148.59 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95fbcd76-85c1-4a3f-b078-8086862bddf1")
+		(property "Reference" "#PWR0100"
+			(at 148.59 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 147.066 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7140cb8c-b41d-4843-8106-b4a78bb712da")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 360.68 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b43f76-7f36-4d71-87fa-4057a0e78bdc")
+		(property "Reference" "D9"
+			(at 360.3625 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 360.3625 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 360.68 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 360.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 360.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9f541d7-25d0-49c7-8a92-3a09e68a8306")
+		)
+		(pin "1"
+			(uuid "1eae0c23-9c8a-4772-a73f-accf9bbf9dcc")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lucasian:PC357C")
 		(at 59.69 101.6 0)
 		(unit 1)
@@ -20488,6 +21725,86 @@
 			(project "TSC BW 16 V3 POC"
 				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
 					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B150-E3")
+		(at 138.43 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd0ea45-26f1-4a29-86db-6b44b00e8dbf")
+		(property "Reference" "D21"
+			(at 138.1125 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B150-E3"
+			(at 138.1125 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 138.43 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 138.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 138.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30dd3818-9873-48a6-93ff-207a2d75ee24")
+		)
+		(pin "1"
+			(uuid "c2cf044e-4daf-40f6-872c-cf0667e61b3f")
+		)
+		(instances
+			(project "TSC BW 16 V3 POC"
+				(path "/65a0f6c1-6a57-4cd2-a77c-79691e6171da/4b14fb8a-3fb3-4e56-ad25-b944ad295dd9"
+					(reference "D21")
 					(unit 1)
 				)
 			)

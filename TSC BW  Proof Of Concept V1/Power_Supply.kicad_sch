@@ -10991,47 +10991,4 @@
 			)
 		)
 	)
-	(group "Power_Supply"
-		(uuid "26defb50-824e-49ae-bd9b-deeb5f295024")
-		(lib_id "design_blocks:Power_Supply")
-		(members "023a3c99-ef17-4d09-b90b-4e569343ec05" "0723043e-975d-486a-92a8-0b0d0957a95c"
-			"1a155a82-60d5-44a5-8a7d-e06ab22bcf91" "1ad50b3e-417d-4e43-aa06-419766515a29"
-			"235d601c-01c4-4a42-98e9-dbc425a860ae" "317349bd-c3d9-48ed-a7aa-e03cc8f367f0"
-			"3d6bb867-d98b-40e4-ba94-f090cf6dd050" "4d7cc53f-908c-47fc-bca9-da0de2a45b0e"
-			"5c687a5b-9247-4daf-95a8-3f19a3204756" "5d848ef6-485f-4cd5-878d-a8333c531ac6"
-			"5ed65dd1-cb38-4679-bdb5-3b2a52069dee" "638bdd1f-4073-42d8-bcf7-cd7c82b598e1"
-			"7482666e-5b2f-422f-b568-a9dd2b293507" "77276545-5f42-441d-a407-6d17d3644ff6"
-			"8ceb1d74-1d49-472e-ae80-90a32e6f9795" "9c5b18bc-4f11-42b2-a138-9f580a409666"
-			"a1aa244d-e10d-440a-9cf2-c91bb8550622" "b692706d-46fd-484b-8788-9f1957b9b566"
-			"c349ec4f-06c5-445a-ac58-98e1d4fa22be" "d6c5d15d-9d69-4655-ba81-801c07deaa39"
-			"ebe0d6dc-64f4-4ae8-b329-f9786503f79b" "f3fd8b91-5ca5-406d-a5d5-dd6c88659c0c"
-		)
-	)
-	(group "Power_Supply-5V to 3v3"
-		(uuid "766bfb83-d154-40da-bb36-921812a43882")
-		(lib_id "design_blocks:Power_Supply-5V to 3v3")
-		(members "046f3af9-fe2b-4943-a44d-dd4ed5c63fc5" "13198a4e-6785-4ccd-b76a-725ac017e04c"
-			"182f2aaf-228b-4ee8-b85b-4d083450d954" "1b812fa6-c59d-4611-9804-e56f5cc9b398"
-			"2b257ff7-0d84-441c-817b-d02cafbcdade" "3af0c039-7b87-42ea-a0ca-6a7925b3c392"
-			"435aac84-54cd-498c-a40f-10d25e4ef4ae" "492d99a0-8c30-4482-a48e-40ab208142b6"
-			"5057839d-3c04-4984-9d7f-10551cdbde3a" "6371b751-c75b-4516-af7e-c2508ab3ac17"
-			"74f1adbe-7f9e-49b0-91e0-cb218f23dfe7" "7792240b-6c83-45b5-b26c-287c7e13ed7a"
-			"837a8e1d-0e8f-492a-89ca-e835ad768f9f" "840abf08-5ad7-4b17-be84-e343de900550"
-			"88b591d7-b2d0-45f0-93ac-c983f138c7d0" "9a3b012f-49b8-4f4c-851e-f0bdd19c3177"
-			"9b4c9730-0a22-4c16-af06-72d17b94e269" "9d840e5c-eab9-4f3c-bd51-d444baf93de3"
-			"a00b5025-e121-4e07-908f-3eb5c0b10156" "a04e96da-9781-4f13-a14d-938da7c43347"
-			"a80cd32f-917c-4099-91c0-6c4ca05d9e87" "b14f9699-b47c-4a18-96f6-281a6f126bf0"
-			"ba46862d-6f08-4d06-82f1-99edeb9cf52d" "c91e576a-728b-4b79-84d0-03eac836e05d"
-			"e26494e4-958d-4a85-8058-791a31b23ef1" "e7e105c5-7d22-4ef3-b76b-8ce56d0291fa"
-			"e91662b0-0fae-406e-b992-e58849eba843"
-		)
-	)
-	(group "Power_Supply"
-		(uuid "cd93e8d6-2ef4-4403-860a-fa71a95d92f9")
-		(lib_id "design_blocks:Power_Supply")
-		(members "2f8ddc4c-1423-47f8-aabe-909edb47c70f" "41c1e6ac-2c87-41e1-8c28-9763ab003583"
-			"5e5c41e8-97b5-43b3-9607-ed8e797f949a" "667e9c81-aed7-4fa6-b812-5253e01a165a"
-			"766bfb83-d154-40da-bb36-921812a43882" "ea7f108e-93cc-4916-98bc-81a1171c2894"
-		)
-	)
 )
