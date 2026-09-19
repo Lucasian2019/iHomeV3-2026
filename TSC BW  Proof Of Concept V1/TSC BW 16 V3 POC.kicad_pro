@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|166350000|138490000|e8424fd9-d469-4a9d-9935-f606a2081559|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_clearance|128141000|146986000|da4dd812-2ce5-4df4-878d-85ac6964b0b9|8921b2b2-b685-45c7-9695-e8722ba298ca",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -527,10 +536,10 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
-        "name": "ANALOG_IN",
+        "clearance": 0.2,
+        "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -538,21 +547,21 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
-        "name": "GND",
+        "clearance": 0.25,
+        "name": "PWR_12_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.2
+        "via_diameter": 0.6,
+        "via_drill": 0.5
       },
       {
-        "clearance": 0.2,
-        "name": "I2C",
+        "clearance": 0.25,
+        "name": "PWR_3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -561,58 +570,14 @@
       },
       {
         "clearance": 0.25,
-        "name": "MOSFET_OUT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.5,
-        "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.6
-      },
-      {
-        "clearance": 0.2,
-        "name": "PGND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
-      },
-      {
-        "clearance": 0.25,
-        "name": "PWR_12_24V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
-      },
-      {
-        "clearance": 0.25,
-        "name": "PWR_3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.25,
         "name": "PWR_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.5,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_diameter": 0.6,
+        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -620,7 +585,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "+12V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
