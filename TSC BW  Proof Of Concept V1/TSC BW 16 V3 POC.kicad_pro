@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "drill_out_of_range|166350000|138490000|e8424fd9-d469-4a9d-9935-f606a2081559|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "hole_clearance|128141000|146986000|da4dd812-2ce5-4df4-878d-85ac6964b0b9|8921b2b2-b685-45c7-9695-e8722ba298ca",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -219,7 +210,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -536,10 +528,17 @@
         "wire_width": 6
       },
       {
+        "name": "DIFF_ROUTE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "DIFF_ROUT"
+      },
+      {
         "clearance": 0.2,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -550,7 +549,7 @@
         "clearance": 0.25,
         "name": "PWR_12_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -561,7 +560,7 @@
         "clearance": 0.25,
         "name": "PWR_3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -572,7 +571,7 @@
         "clearance": 0.25,
         "name": "PWR_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -589,6 +588,78 @@
       {
         "netclass": "PWR_12_24V",
         "pattern": "+12V"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp5"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "VinLoad1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/8 DIGITAL OUTPUTS/outp5"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp6"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp7"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp8"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp4"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp3"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp2"
+      },
+      {
+        "netclass": "PWR_12_24V",
+        "pattern": "/8 DIGITAL OUTPUTS/outp1"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/W500 v3/TD+"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/W500 v3/TD-"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/W500 v3/RD+"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/W500 v3/RD-"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/W500 v3/RXP+"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/W500 v3/RXN-"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/USB_C to UART/D-"
+      },
+      {
+        "netclass": "DIFF_ROUTE",
+        "pattern": "/USB_C to UART/D+"
       }
     ]
   },
@@ -946,6 +1017,25 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 250000
+          }
+        ],
+        "profile_name": "DIFF_ROUT",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
