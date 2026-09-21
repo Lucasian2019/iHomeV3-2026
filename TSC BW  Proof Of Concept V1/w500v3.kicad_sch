@@ -4329,6 +4329,12 @@
 		(uuid "258c3fb1-4764-4e4f-91fc-b86f0734d916")
 	)
 	(junction
+		(at 129.54 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ba02fe-8ffb-45d7-8d6f-251986d94516")
+	)
+	(junction
 		(at 101.6 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4465,12 +4471,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d480c44d-2e49-461b-92fc-6182ab1716ee")
-	)
-	(junction
-		(at 129.54 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3f68e31-9e93-490e-a165-883f0bb3ab2b")
 	)
 	(junction
 		(at 113.03 40.64)
@@ -6061,6 +6061,16 @@
 			(type default)
 		)
 		(uuid "e4bea350-be4e-45b0-8400-2163f6f768ce")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e860be-2781-4082-a879-ab5d8ebe53fa")
 	)
 	(wire
 		(pts
@@ -15890,7 +15900,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 129.54 74.93 0)
+		(at 129.54 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15900,7 +15910,7 @@
 		(dnp no)
 		(uuid "fd17c1a2-07d7-411c-9c09-1f14cdc40ee5")
 		(property "Reference" "#PWR0294"
-			(at 129.54 78.74 0)
+			(at 129.54 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15911,7 +15921,7 @@
 			)
 		)
 		(property "Value" "+3V3 VW"
-			(at 129.286 70.104 0)
+			(at 129.286 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15921,7 +15931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 74.93 0)
+			(at 129.54 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15932,7 +15942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 74.93 0)
+			(at 129.54 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15943,7 +15953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 74.93 0)
+			(at 129.54 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
